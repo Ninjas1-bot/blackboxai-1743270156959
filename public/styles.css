@@ -1,0 +1,30 @@
+/* Custom styles */
+#map {
+  z-index: 0;
+}
+
+.history-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s;
+}
+
+.history-item:hover {
+  background-color: #f3f4f6;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+/* Leaflet map adjustments */
+.leaflet-control-attribution {
+  font-size: 0.7rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #map {
+    height: 300px;
+  }
+}
